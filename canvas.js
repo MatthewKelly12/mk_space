@@ -66,7 +66,8 @@ window.addEventListener('mousemove', function (event) {
 function animate() {
     requestAnimationFrame(animate);
     c.fillStyle = "#000";
-    c.fillRect(0, 0, innerWidth, innerHeight);
+	c.fillRect(0, 0, innerWidth, innerHeight);
+
 	starShip();
 
 	for (let i in stars) {

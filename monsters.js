@@ -37,9 +37,9 @@ function Monster(x, y, z) {
 
         this.z += -10;
 
-        // if (this.z <= 0) {
-        //     this.z = parseInt(innerWidth)
-        // }
+        if (this.z <= 0) {
+            this.z = parseInt(innerWidth)
+        }
         this.draw();
     }
 
@@ -50,7 +50,7 @@ let monster1;
 
 // X, Y, Z Values for monsters/targets
 // gets pushed into monsters array
-for (let i = 0; i < 1; i++) {
+for (let i = 0; i < 3; i++) {
     let x = Math.random() * (innerWidth);
     let y = Math.random() * (innerHeight);
     let z = 2000
