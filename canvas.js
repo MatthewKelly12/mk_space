@@ -68,6 +68,7 @@ function animate() {
     c.fillStyle = "#000";
 	c.fillRect(0, 0, innerWidth, innerHeight);
 
+	// function starShip draws green circle attached to mouse
 	starShip();
 
 	for (let i in stars) {
